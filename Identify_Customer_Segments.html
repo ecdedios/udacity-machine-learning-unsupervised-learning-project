@@ -18246,6 +18246,29 @@ ANREDE_KZ  -0.342277
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Discussion-2.3:-Interpret-Principal-Components">Discussion 2.3: Interpret Principal Components<a class="anchor-link" href="#Discussion-2.3:-Interpret-Principal-Components">&#182;</a></h3><p>First Principal Component:</p>
+<ul>
+<li>Positively correlated with social status, number of family houses, and household net income.</li>
+</ul>
+<p>Second Principal Component:</p>
+<ul>
+<li>Positively correlated with age, financial and personality typologies.</li>
+</ul>
+<p>Third Principal Component</p>
+<ul>
+<li>Characterized by personality typology and investor type.</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Step-3:-Clustering">Step 3: Clustering<a class="anchor-link" href="#Step-3:-Clustering">&#182;</a></h2><h3 id="Step-3.1:-Apply-Clustering-to-General-Population">Step 3.1: Apply Clustering to General Population<a class="anchor-link" href="#Step-3.1:-Apply-Clustering-to-General-Population">&#182;</a></h3><p>You've assessed and cleaned the demographics data, then scaled and transformed them. Now, it's time to see how the data clusters in the principal components space. In this substep, you will apply k-means clustering to the dataset and use the average within-cluster distances from each point to their assigned cluster's centroid to decide on a number of clusters to keep.</p>
 <ul>
 <li>Use sklearn's <a href="http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans">KMeans</a> class to perform k-means clustering on the PCA-transformed data.</li>
@@ -19127,7 +19150,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Discussion-3.1:-Apply-Clustering-to-General-Population">Discussion 3.1: Apply Clustering to General Population<a class="anchor-link" href="#Discussion-3.1:-Apply-Clustering-to-General-Population">&#182;</a></h3><p>I decided to use 10 as number of k because that's where the elbow lies.</p>
+<h3 id="Discussion-3.1:-Apply-Clustering-to-General-Population">Discussion 3.1: Apply Clustering to General Population<a class="anchor-link" href="#Discussion-3.1:-Apply-Clustering-to-General-Population">&#182;</a></h3><p>I decided to use 2 as number of k because it's above the defflection point or the elbow point in the plot.</p>
 
 </div>
 </div>
